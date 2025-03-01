@@ -1,4 +1,4 @@
-# Crypto/Time Series ML Hyperparameter Optimizer Tool
+# Crypto/Time Series ML Hyperparameter Optimizer/Model Training Tool
 
 A tool for performing systematic hyperparameter optimization for time-series data. With the example data and model architecture, I use a modular LSTM-CNN-MLP based model to forecast BTC price movements 1 hour in advance.
 
