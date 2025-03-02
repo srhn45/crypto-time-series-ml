@@ -4,6 +4,9 @@ def change_hyperparameters(best_params, search_space, change_factor=0.2, change_
     Uses gaussian noise for perturbations.
     """
 
+    import numpy as np
+    import pandas as pd
+    
     new_params = best_params.copy()
     for key in best_params.keys():
         if np.random.rand() < change_proba:
